@@ -5,7 +5,7 @@ on:
 
 jobs:
   cancel-runs:
-    # Prevent forks from running this to be nice
+    # Prevent forks from running this to be nice 
     if: github.repository == 'n1hility/test-cancel'
     runs-on: ubuntu-latest
     steps:
